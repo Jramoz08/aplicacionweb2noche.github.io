@@ -1,0 +1,107 @@
+nav {
+	background-color: black;
+}
+
+Body {
+	background-image: url("https://64.media.tumblr.com/d6f80ab5136c2513ae741d8e2eef5ab5/07475883e74dab8b-89/s540x810/4175f77215447b7d708fb717f3ed5a544fc0581a.jpg");
+	font-family: 'Phudu', cursive;
+	
+}
+
+a {
+	color: white;
+	font-family: 'Phudu', cursive;
+}
+
+p {
+	color: white;
+	font-family: 'Phudu', cursive;
+}
+
+nav {
+
+	color: white;
+}
+
+h1 {
+	color: white;
+	font-family: 'Phudu', cursive;
+}
+
+h2 {
+	color: white;
+	font-family: 'Phudu', cursive;
+}
+
+h3 {
+	color: white
+}
+
+h6 {
+	color: white
+}
+
+a: link {
+	text-decoration: none;
+	color: white;
+}
+
+a: visited {
+	text-decoration: underlined color:white;
+}
+
+footer {
+	background-color: black;
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+iframe {
+		width: 98%;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-size: 70%;
+	}
+
+	nav{
+		background-size: 70%;
+		font-size: 70%;
+	}
+	video {
+		width: 80%;
+	}
+
+		audio {
+			width: 38%;
+		}
+
+				
+	h1 {
+		font-size: 98%;
+	}
+
+	footer{
+		background-size: 70%;
+		font-size: 98%;
+	}
+
+	article {
+		size: 10px;
+	}
+
+	table {
+		font-size: 14px;
+	}
+
+	th,
+	td {
+		padding: 5px;
+	}
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personalizada 1</title>
+        <link rel="stylesheet" href=".\css\styles1p.css" />
+    </head>
+
+    <body>
+        <h1>LIGA DE CICLISMO DE BOGOTA</h1>
+        <p>Informa sobre las tres etapas de la 3° validas nacional de este año.</p>
+        <p> Valido para las siguientes Categorias del año vigente. </p>
+        <ul>
+            <li>Juvenil</li>
+            <li>Sub 23</1i>
+            <li>Elite</li>
+        </ul>
+        <table>
+            <tr class="head">
+                <th></th>
+                <th>Etapa 1</th>
+                <th>Etapa 2</th>
+                <th>Etapa 3</th>
+                </tと>
+            <tr>
+                <th>Juvenil</th>
+                <td> jueves 24 de noviembre - 5 am<br />Duitama – Tibasosa </td>
+                <td> viernes 25 de noviembre - 11 am<br>Sogamoso- Duitama</td>
+                <td> sábado 26 de noviembre - 2 pm<br>CRI 15.3 km - Firavitoba.</td>
+            </tr>
+            <tr class="even">
+                <th>Sub23</th>
+                <td> jueves 27 de noviembre - 5 am<br />Paipa – Duitama </td>
+                <td> viernes 28 de noviembre - 9 am<br>Cerinza – Santa Rosa de Viterbo </td>
+                <td> sábado 29 de noviembre - 2 pm<br>CRI 20 km - Firavitoba.</td>
+            </tr>
+            <tr>
+                <th>Elite</th>
+                <td> jueves 1 de diciembre - 5 am<br />Combita - Tibasosa </td>
+                <td> viernes 3 de diciembre - 11am<br>Belén - Tópaga</td>
+                <td> sábado 4 de diciembre - 2pm<br>CRI 28 km - Firavitoba.</td>
+            </tr>
+        </table>
+        <br>
+        <form action="personalizada2.html" method="get">
+            <fieldset>
+                <legend>Registrese en el siguiente formulario para su participacion:</legend>
+                <p><label class="title" for="name">Nombre:</label>
+                    <input type="text" name="name" id="name"><br />
+                <p><label class="title" for="team">equipo:</label>
+                    <input type="text" name="team" id="team"><br>
+                    <br>
+                    <label class="title" for="dorsal">Dorsal:</label>
+                    <input type="text" name="dorsal" id="dorsal">
+                </p>
+                <p><label for="location" class="title">Categoria:</label>
+                    <select name="location" id="location">
+                        <option value="bo">Juvenil</option>
+                        <option value="ib">Sub 23</option>
+                        <option value="me">Elite</option>
+                    </select>
+                </p>
+                <span class="title">Autoriza el uso de los siguientes datos</span>
+                <label><input type="radio" name="member" value="si" />
+                    si</label>
+                <label><input type="radio" name="member" value="no" />
+                    No</label></p>
+            </fieldset>
+            <br>
+            <div class="submit"><input type="submit" value="Registro" />
+            </div>
+        </form>
+    </body>
+
+</html>
